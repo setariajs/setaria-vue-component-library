@@ -22,7 +22,8 @@
     "upgrade:sdk": "yarn upgrade setaria --registry=https://registry.npmjs.org",
     "upgrade:ui": "yarn upgrade setaria-ui --registry=https://registry.npmjs.org",
     "build:lib": "yarn && vue-cli-service build --target lib --dest lib --name setaria-vue-component-library src/lib.js --mode production",
-    "build:demo": "yarn && vue-cli-service build --mode dev"
+    "build:demo": "yarn && vue-cli-service build --mode dev",
+    "deploy": "yarn && vue-cli-service build --mode dev --dest dist && gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -60,6 +61,7 @@
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
+    "gh-pages": "^3.2.3",
     "lodash": "^4.17.21",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.0.2",

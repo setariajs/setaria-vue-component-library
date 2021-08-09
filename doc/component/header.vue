@@ -17,7 +17,7 @@
     .container {
       height: 100%;
       box-sizing: border-box;
-      border-bottom: 1px solid #DCDFE6;
+      box-shadow: 0 8px 24px -2px rgb(0 0 0 / 5%);
     }
 
     h1 {

@@ -22,8 +22,9 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    margin-top: 80px;
+    margin-top: 50px;
     transition: padding-top 0.3s;
+    border-right: 1px solid #ebedf1;
 
     > .el-scrollbar__wrap {
       height: 100%;
