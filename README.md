@@ -42,7 +42,7 @@ https://setariajs.github.io/setaria-vue-component-library/#/component/installati
 | `yarn build:demo` | 框架示例打包 | -                                                                    |
 | `yarn deploy`      | 框架示例部署至github       | -                                                                    |
 
-# Feature
+## 💫 Feature
 
 - [X] install
 - [X] example
