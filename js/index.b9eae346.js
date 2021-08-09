@@ -249,7 +249,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/setaria-vue-component-library/";
 /******/
 /******/ 	// on error function for async loading
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
@@ -1044,7 +1044,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   mode: 'history',
-  base: "/".concat(Object({"NODE_ENV":"production","VUE_APP_CLIENT_BASE_URL":"/","VUE_APP_ENTRY_PAGE_FILE":"./doc/entry.ts","VUE_APP_ID":"setaria-vue-component-library","VUE_APP_TITLE":"Setaria业务公共组件示例工程","BASE_URL":"/"}).VUE_APP_SITE_ID, "/").concat("/"),
+  base: "/".concat(Object({"NODE_ENV":"production","VUE_APP_CLIENT_BASE_URL":"/setaria-vue-component-library","VUE_APP_ENTRY_PAGE_FILE":"./doc/entry.ts","VUE_APP_ID":"setaria-vue-component-library","VUE_APP_TITLE":"Setaria业务公共组件示例工程","BASE_URL":"/setaria-vue-component-library/"}).VUE_APP_SITE_ID, "/").concat("/setaria-vue-component-library"),
   routes: []
 });
 
@@ -1977,7 +1977,7 @@ vue__WEBPACK_IMPORTED_MODULE_6___default.a.component('main-header', _component_h
 vue__WEBPACK_IMPORTED_MODULE_6___default.a.component('side-nav', _component_side_nav_vue__WEBPACK_IMPORTED_MODULE_13__["default"]);
 vue__WEBPACK_IMPORTED_MODULE_6___default.a.component('demo-block', _component_demo_block_vue__WEBPACK_IMPORTED_MODULE_11__["default"]);
 var sdk = new main_lib_js__WEBPACK_IMPORTED_MODULE_7__["default"](config, {
-  env: Object({"NODE_ENV":"production","VUE_APP_CLIENT_BASE_URL":"/","VUE_APP_ENTRY_PAGE_FILE":"./doc/entry.ts","VUE_APP_ID":"setaria-vue-component-library","VUE_APP_TITLE":"Setaria业务公共组件示例工程","BASE_URL":"/"})
+  env: Object({"NODE_ENV":"production","VUE_APP_CLIENT_BASE_URL":"/setaria-vue-component-library","VUE_APP_ENTRY_PAGE_FILE":"./doc/entry.ts","VUE_APP_ID":"setaria-vue-component-library","VUE_APP_TITLE":"Setaria业务公共组件示例工程","BASE_URL":"/setaria-vue-component-library/"})
 });
 vue__WEBPACK_IMPORTED_MODULE_6___default.a.mixin(main_lib_js__WEBPACK_IMPORTED_MODULE_7__["default"].mixin);
 setaria__WEBPACK_IMPORTED_MODULE_5___default.a.getRouter().afterEach(function () {
