@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: 'Microsoft YaHei', 'Helvetica Neue', Helvetica, 'PingFang SC',
+  'Hiragino Sans GB', '微软雅黑', Arial, sans-serif;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.65);
+  overflow: auto;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-variant: tabular-nums;
+  background: #f0f2f5;
+}

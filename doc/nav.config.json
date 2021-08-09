@@ -1,0 +1,24 @@
+[
+  {
+    "name": "更新日志",
+    "path": "/changelog"
+  },
+  {
+    "name": "安装",
+    "path": "/installation"
+  },
+  {
+    "name": "组件",
+    "groups": [
+      {
+        "groupName": "Basic",
+        "list": [
+          {
+            "path": "/foo",
+            "title": "Foo 示例"
+          }
+        ]
+      }
+    ]
+  }
+]
