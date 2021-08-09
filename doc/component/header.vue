@@ -1,16 +1,16 @@
 <style lang="scss" scoped>
   .headerWrapper {
-    height: 50px;
+    height: 60px;
   }
 
   .header {
-    height: 50px;
+    height: 60px;
+    line-height: 60px;
     background-color: #fff;
     color: #fff;
     top: 0;
     left: 0;
     width: 100%;
-    line-height: 50px;
     z-index: 100;
     position: relative;
 
@@ -50,7 +50,7 @@
     .nav {
       float: right;
       height: 100%;
-      line-height: 50px;
+      line-height: 60px;
       background: transparent;
       padding: 0;
       margin: 0 50px 0 0;
@@ -108,8 +108,6 @@
   .system-title {
     display: inline-block;
     color: #000;
-    height: 50px;
-    line-height: 50px;
   }
 
   .nav-version {

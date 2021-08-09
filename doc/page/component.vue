@@ -22,7 +22,8 @@
     position: fixed;
     top: 0;
     bottom: 0;
-    margin-top: 50px;
+    margin-top: 60px;
+    padding-top: 20px;
     transition: padding-top 0.3s;
     border-right: 1px solid #ebedf1;
 

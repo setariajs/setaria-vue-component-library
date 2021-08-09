@@ -3,8 +3,8 @@
 //   MOD1 模块1
 //   MOD2 模块2
 // Message Catagory:
-//   COM 模块内公共消息
-//   BIZ 模块页面内独立消息
+//   COM 应用系统公共消息
+//   BIZ 应用系统子模块公共消息
 // Message Type:
 //   S 成功
 //   W 警告
@@ -14,7 +14,7 @@ export default {
   SYCOM001S: '{0}成功。',
   SYCOM002E: '{0}不能为空。',
   SYCOM003W: '是否确认保存?',
-  SYCOM004E: 'Schema解析错误，请联系SAP开发人员。',
+  SYCOM004E: 'Schema解析错误，请联系开发人员。',
   SYCOM005E: '项目 {0} 格式化失败。',
   SYCOM006W: '请至少选择一条数据。',
   SYCOM007E: '第 {0} 行数据重复，请修改。',

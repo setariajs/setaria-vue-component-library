@@ -1,5 +1,10 @@
+const {
+  VUE_APP_SITE_ID,
+  VUE_APP_CLIENT_BASE_URL,
+} = process.env;
+
 export default {
   mode: 'history',
-  base: `/${process.env.VUE_APP_SITE_ID}/${process.env.VUE_APP_CLIENT_BASE_URL}`,
+  base: `/${VUE_APP_SITE_ID}/${VUE_APP_CLIENT_BASE_URL}`,
   routes: [],
 };

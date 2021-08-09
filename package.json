@@ -17,8 +17,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve --mode dev",
-    "dev": "yarn upgrade:sdk && yarn upgrade:ui && yarn start:dev",
-    "start:dev": "vue-cli-service serve --mode dev",
+    "start": "yarn upgrade:sdk && yarn upgrade:ui && yarn serve",
     "upgrade:sdk": "yarn upgrade setaria --registry=https://registry.npmjs.org",
     "upgrade:ui": "yarn upgrade setaria-ui --registry=https://registry.npmjs.org",
     "build:lib": "yarn && vue-cli-service build --target lib --dest lib --name setaria-vue-component-library src/lib.js --mode production",
@@ -26,15 +25,7 @@
     "deploy": "yarn && vue-cli-service build --mode dev --dest dist && gh-pages -d dist"
   },
   "dependencies": {
-    "core-js": "^3.6.5",
-    "exceljs": "^4.2.1",
-    "qs": "^6.10.1",
-    "vxe-table": "^3.2.1",
-    "vxe-table-plugin-element": "^1.11.0",
-    "vxe-table-plugin-export-xlsx": "^2.2.1",
-    "vxe-table-plugin-menus": "^1.6.1",
-    "vxe-table-plugin-virtual-tree": "^0.6.7",
-    "xml-js": "^1.6.11"
+    "core-js": "^3.6.5"
   },
   "peerDependencies": {
     "lodash": "^4.17.21",
@@ -45,7 +36,6 @@
     "vue": "^2.6.11",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2",
-    "xe-utils": "3.2.1",
     "xlsx": "^0.16.9"
   },
   "devDependencies": {
@@ -70,7 +60,6 @@
     "moment": "^2.29.1",
     "numeral": "^2.0.6",
     "progress-bar-webpack-plugin": "^2.1.0",
-    "qs": "^6.10.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "setaria": "^0.4.17",
@@ -83,7 +72,6 @@
     "vue-router": "^3.5.1",
     "vue-template-compiler": "^2.6.11",
     "vuex": "^3.6.2",
-    "xe-utils": "3.2.1",
-    "xlsx": "^0.16.9"
+    "xe-utils": "3.2.1"
   }
 }

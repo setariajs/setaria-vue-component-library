@@ -1,12 +1,9 @@
 import _ from 'lodash';
-import { ServiceError } from 'setaria';
 
 function getCommonHttpConfig(env, interceptor) {
   const {
     VUE_APP_SITE_ID,
     VUE_APP_API_BASE_URL,
-    VUE_APP_DOC_API_URL,
-    VUE_APP_MINGYUAN_API_URL,
   } = env;
   const gatewayUrl = `/${VUE_APP_SITE_ID}/${VUE_APP_API_BASE_URL}`;
 
