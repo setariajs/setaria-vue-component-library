@@ -101,7 +101,25 @@ const config = {
   devServer: {
     // 前端开发服务器端口号
     port: 8000,
+    proxy: {},
   },
+};
+
+const {
+  VUE_APP_SITE_ID,
+  VUE_APP_API_BASE_URL,
+  VUE_APP_SERVICE_HOST,
+} = process.env;
+
+const proxyPrefixUrl = `/${VUE_APP_SITE_ID}/${VUE_APP_API_BASE_URL}`;
+config.devServer.proxy[proxyPrefixUrl] = {
+  pathRewrite: {
+    [proxyPrefixUrl]: '',
+  },
+  // 远程服务地址
+  target: VUE_APP_SERVICE_HOST,
+  secure: false,
+  changeOrigin: true,
 };
 
 module.exports = config;
