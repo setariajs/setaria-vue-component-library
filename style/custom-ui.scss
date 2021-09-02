@@ -1,0 +1,31 @@
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~setaria-ui/lib/theme-chalk/fonts';
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: #E50039;
+/// color|1|Background Color|4
+$--color-white: #FFFFFF;
+/// color|1|Background Color|4
+$--color-black: #000000;
+/// color|1|Functional Color|1
+$--color-success: #67C23A;
+/// color|1|Functional Color|1
+$--color-warning: #FFA927;
+/// color|1|Functional Color|1
+$--color-danger: #FF6666;
+
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%);
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%);
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%);
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%);
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%);
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%);
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%);
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%);
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%);
+
+$--button-primary-background-color: $--color-primary;
+
+@import '~setaria-ui/packages/theme-chalk/src/index';
