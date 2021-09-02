@@ -16,3 +16,14 @@ body {
   font-variant: tabular-nums;
   background: #f0f2f5;
 }
+
+.app-layout {
+  width: 100%;
+  height: 100%;
+
+  & > .el-main {
+    height: 100%;
+    width: 100%;
+    padding: 12px;
+  }
+}
